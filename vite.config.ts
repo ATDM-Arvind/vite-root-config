@@ -44,6 +44,8 @@ export default defineConfig(async ({ mode }) => {
     test: {
       globals: true,
       environment: "jsdom",
+      setupFiles:'./src/_test_/setup.tsx',
+      css:true,
     },
     build: {
       target: "es2022",
