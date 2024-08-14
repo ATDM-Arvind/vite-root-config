@@ -1,6 +1,6 @@
 
 import {describe, test} from 'vitest';
-import {render,fireEvent,waitFor} from '@testing-library/react';
+import {render,fireEvent} from '@testing-library/react';
 import Header from '../header/Header';
 
 describe("Header React Micro-frontend application", ()=>{
@@ -18,7 +18,11 @@ describe("Header React Micro-frontend application", ()=>{
             },
             qty: 10
         } }));
-        const elem = component.getByText("Test User");
-        console.warn('aaa ',elem)
+        const name = component.getByText("Test User");
+        const qty = component.getByText("Qty: 10");
+
+        expect(name).toBeTruthy()
+        expect(qty).toBeTruthy()
+
     });
 })
