@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BUCKET: arvind-root-config
-      DIST: build
+      DIST: dist
       REGION: us-east-1
       # DIST_ID: E30YMBSKK054VC
 
