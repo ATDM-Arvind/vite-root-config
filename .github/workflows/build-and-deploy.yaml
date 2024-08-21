@@ -31,6 +31,7 @@ jobs:
       run: |
         node --version
         npm ci --production
+        npm install
 
     - name: Build Static Website
       run: npm run build
