@@ -46,6 +46,12 @@ export default defineConfig(async ({ mode }) => {
       environment: "jsdom",
       setupFiles:'./src/_test_/setup.tsx',
       css:true,
+      reporters: ['default'],
+      coverage: {
+        provider: 'v8', // or 'v8'
+        reporter: ['text', 'json', 'html'],
+      },
+
     },
     build: {
       target: "es2022",

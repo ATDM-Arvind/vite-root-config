@@ -6,9 +6,9 @@
         "@acc/root-config": "http://arvind-root-config.s3-website-us-east-1.amazonaws.com/acc-root-config.js",
         "@acc/header":"http://arvind-root-config.s3-website-us-east-1.amazonaws.com/header/acc-header.ts",
         "@acc/profile":"http://arvind-customers.s3-website-us-east-1.amazonaws.com",
-        "@acc/orders":"http://localhost:4173/src/acc-orders.ts",
+        "@acc/orders":"http://arvind-orders.s3-website-us-east-1.amazonaws.com",
         "@acc/api":"http://arvind-api-vite.s3-website-us-east-1.amazonaws.com",
-        "@acc/helpdesk":"http://localhost:4175/src/acc-helpdesk.tsx",
-        "@acc/contactus":"http://localhost:4176/src/acc-contactus.ts"
+        "@acc/helpdesk":"http://arvind-helpdesk.s3-website-us-east-1.amazonaws.com",
+        "@acc/contactus":"http://arvind-contactus.s3-website-us-east-1.amazonaws.com"
     }
 }
