@@ -14,7 +14,7 @@ registerApplication({
     System.import<LifeCycles>(
       "@acc/profile"
     ),
-  activeWhen: ["/"],
+  activeWhen: ["/profiles"],
 });
 
 
@@ -24,7 +24,7 @@ registerApplication({
     System.import<LifeCycles>(
       "@acc/contactus"
     ),
-  activeWhen: ["/"],
+  activeWhen: ["/contactus"],
 });
 
 registerApplication({
