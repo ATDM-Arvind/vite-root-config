@@ -1,0 +1,14 @@
+{
+    "imports": {
+        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
+        "react": "https://unpkg.com/react@18.3.1/umd/react.development.js",
+        "react-dom": "https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js",
+        "@acc/root-config": "http://arvind-root-config.s3-website-us-east-1.amazonaws.com/acc-root-config.js",
+        "@acc/header":"http://arvind-root-config.s3-website-us-east-1.amazonaws.com/header/acc-header.ts",
+        "@acc/profile":"http://arvind-customers.s3-website-us-east-1.amazonaws.com",
+        "@acc/orders":"http://arvind-orders.s3-website-us-east-1.amazonaws.com",
+        "@acc/api":"http://arvind-api-vite.s3-website-us-east-1.amazonaws.com",
+        "@acc/helpdesk":"http://arvind-helpdesk.s3-website-us-east-1.amazonaws.com",
+        "@acc/contactus":"http://arvind-contactus.s3-website-us-east-1.amazonaws.com"
+    }
+}
