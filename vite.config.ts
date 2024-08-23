@@ -57,9 +57,9 @@ export default defineConfig(async ({ mode }) => {
       target: "es2022",
       rollupOptions: {
         input: ["./src/acc-root-config.ts"],
-        preserveEntrySignatures: "exports-only",
+        preserveEntrySignatures: "strict",
         output: {
-          format: "systemjs",
+          format: "esm",
           exports: "auto",
           entryFileNames: "[name].js",
         },
